@@ -1,0 +1,12 @@
+{
+  "name": "proju1",
+  "version": "1.0.0",
+  "description": "FullStack project1 for the course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js"
+  },
+  "author": "Juuso",
+  "license": "ISC"
+}
