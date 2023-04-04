@@ -45,15 +45,16 @@
                 <form method="post" action="/addmessage">
                     <div class="mb-2">
                         <label for="exampleFormControlInput1" class="form-label">Username</label>
-                        <input type="text" name="username" class="form-control" id="exampleFormControlInput1">
+                        <input type="text" name="username" class="form-control" id="exampleFormControlInput1" required>
                     </div>
                     <div class="mb-2">
                         <label for="exampleFormControlInput1" class="form-label">Country</label>
-                        <input type="text" name="country" class="form-control" id="exampleFormControlInput1">
+                        <input type="text" name="country" class="form-control" id="exampleFormControlInput1" required>
                     </div>
                     <div class="mb-2">
                         <label for="exampleFormControlInput1" class="form-label">message</label>
-                        <textarea name="message" class="form-control" id="exampleFormControlInput1" rows="2"></textarea>
+                        <textarea name="message" class="form-control" id="exampleFormControlInput1" rows="2"
+                            required></textarea>
                     </div>
                     <input class="btn btn-primary" type="submit" value="submit">
                 </form>
